@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Luminescent Love",
+  "version": "1.0",
+  "description": "Two souls united under a glowing, starry night.",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "background_tab": [122, 146, 233],
+      "background_tab_inactive": [85, 102, 164],
+      "bookmark_text": [122, 146, 233],
+      "button_background": [122, 146, 233],
+      "frame": [14, 16, 26],
+      "frame_inactive": [27, 30, 51],
+      "ntp_header": [234, 157, 101],
+      "ntp_link": [234, 157, 101],
+      "ntp_text": [234, 157, 101],
+      "omnibox_background": [45, 54, 87],
+      "omnibox_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "tab_background_text_inactive": [255, 255, 255],
+      "tab_text": [255, 255, 255],
+      "toolbar": [14, 16, 26],
+      "toolbar_button_icon": [122, 146, 233],
+      "toolbar_text": [122, 146, 233]
+    }
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Luminescent Love",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
