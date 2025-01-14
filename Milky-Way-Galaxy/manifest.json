@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Milky Way Galaxy",
+  "theme": {
+    "images": {
+      "theme_toolbar": "images/toolbar.png",
+      "theme_frame": "images/frame.png",
+      "theme_frame_inactive": "images/frame_inactive.png",
+      "theme_frame_incognito": "images/frame_incognito.png",
+      "theme_frame_incognito_inactive": "images/frame_incognito_inactive.png",
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "background_tab": [33, 40, 73],
+      "background_tab_inactive": [33, 40, 73],
+      "background_tab_incognito": [33, 40, 73],
+      "background_tab_incognito_inactive": [33, 40, 73],
+      "bookmark_text": [160, 160, 160],
+      "button_background": [255, 255, 255],
+      "ntp_background": [52, 55, 69],
+      "ntp_header": [255, 255, 255],
+      "ntp_link": [33, 40, 73],
+      "ntp_text": [255, 255, 255],
+      "omnibox_background": [33, 40, 73],
+      "omnibox_text": [255, 255, 255],
+      "tab_background_text": [160, 160, 160],
+      "tab_background_text_inactive": [160, 160, 160],
+      "tab_background_text_incognito": [160, 160, 160],
+      "tab_background_text_incognito_inactive": [160, 160, 160],
+      "tab_text": [255, 255, 255],
+      "toolbar_button_icon": [255, 255, 255],
+      "toolbar_text": [255, 255, 255]
+    },
+    "tints": {
+      "buttons": [0.33, 0.5, 0.47]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  },
+  "icons": {
+    "128": "images/icon_128.png",
+    "48": "images/icon_48.png",
+    "16": "images/icon_16.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Milky Way Galaxy",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
