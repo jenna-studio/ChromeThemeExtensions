@@ -1,0 +1,73 @@
+{
+	"manifest_version": 3,
+	"name": "Dubrovnik Night",
+	"version": "1.0",
+	"description": "Enhance your web navigation with a sense of mystery and romance of Dubrovnik's night scenary.",
+	"theme": {
+		"images": {
+			"theme_frame": "images/frame.png",
+			"theme_toolbar": "images/toolbar.png",
+			"theme_tab_background": "images/tab_background.png",
+			"theme_ntp_background": "images/ntp_background.png"
+		},
+		"colors": {
+			"frame_inactive": [
+				48,
+				48,
+				48
+			],
+			"tab_text": [
+				255,
+				255,
+				255
+			],
+			"tab_background_text": [
+				204,
+				204,
+				204
+			],
+			"omnibox_text": [
+				255,
+				255,
+				255
+			],
+			"omnibox_background": [
+				1,
+				12,
+				54
+			],
+			"bookmark_text": [
+				204,
+				204,
+				204
+			],
+			"button_background": [
+				255,
+				255,
+				255
+			],
+			"folder": [
+				204,
+				204,
+				204
+			]
+		}
+	},
+	"icons": {
+		"16": "images/icon_16.png",
+		"48": "images/icon_48.png",
+		"128": "images/icon_128.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "images/icon_16.png",
+			"48": "images/icon_48.png",
+			"128": "images/icon_128.png"
+		},
+		"default_title": "Dubrovnik Night",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"storage"
+	]
+}
