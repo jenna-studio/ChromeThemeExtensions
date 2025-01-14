@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Grey Workspace",
+  "version": "1.0",
+  "description": "Transform your browser into a grey workspace.",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "frame": [201, 202, 204],
+      "frame_inactive": [201, 202, 204],
+      "toolbar": [201, 202, 204],
+      "background_tab": [221, 224, 229],
+      "tab_text": [68, 69, 71],
+      "tab_background_text": [68, 69, 71],
+      "omnibox_text": [39, 39, 40],
+      "omnibox_background": [242, 243, 245],
+      "bookmark_text": [87, 85, 86],
+      "button_background": [201, 202, 204],
+      "folder": [87, 85, 86]
+    }
+  },
+  "icons": {
+    "128": "images/icon_128.png",
+    "48": "images/icon_48.png",
+    "16": "images/icon_16.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Grey Workspace",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}

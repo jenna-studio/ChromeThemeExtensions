@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Frozen Castle",
+  "version": "1.0",
+  "description": "A majestic ice castle in a snowy wonderland.",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "background_tab": [0, 107, 173],
+      "background_tab_inactive": [0, 107, 173],
+      "bookmark_text": [90, 182, 238],
+      "button_background": [90, 182, 238],
+      "frame": [4, 68, 108],
+      "frame_inactive": [4, 68, 108],
+      "ntp_header": [2, 55, 86],
+      "ntp_link": [76, 137, 174],
+      "ntp_text": [255, 255, 255],
+      "omnibox_background": [2, 55, 86],
+      "omnibox_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "tab_background_text_inactive": [255, 255, 255],
+      "tab_text": [255, 255, 255],
+      "toolbar": [4, 68, 108],
+      "toolbar_button_icon": [90, 182, 238],
+      "toolbar_text": [90, 182, 238]
+    }
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Frozen Castle",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
