@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Pink Green",
+  "version": "1.0",
+  "description": "A simple pink and green theme",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "background_tab": [49, 114, 105],
+      "background_tab_inactive": [77, 158, 147],
+      "bookmark_text": [111, 111, 111],
+      "button_background": [255, 255, 255],
+      "frame": [255, 161, 206],
+      "frame_inactive": [255, 203, 227],
+      "ntp_header": [49, 114, 105],
+      "ntp_link": [255, 203, 227],
+      "ntp_text": [49, 114, 105],
+      "omnibox_background": [49, 114, 105],
+      "omnibox_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "tab_background_text_inactive": [255, 255, 255],
+      "tab_text": [49, 114, 105],
+      "toolbar": [255, 161, 206],
+      "toolbar_button_icon": [49, 114, 105],
+      "toolbar_text": [255, 255, 255]
+    }
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Pink Green",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}

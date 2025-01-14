@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "North Miracle",
+  "version": "1.7",
+  "description": "Enhance your browsing experience with a modern and dynamic design full of colors.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_frame_inactive": "images/inactive_frame.png",
+      "theme_toolbar": "images/toolbar.png",
+      "theme_tab_background": "images/tab_background.png",
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "frame": [115, 95, 215],
+      "frame_inactive": [180, 179, 180],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [51, 50, 50],
+      "omnibox_text": [255, 255, 255],
+      "omnibox_background": [115, 95, 215],
+      "bookmark_text": [255, 255, 255],
+      "button_background": [87, 85, 86],
+      "folder": [122, 120, 121]
+    }
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "North Miracle",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
