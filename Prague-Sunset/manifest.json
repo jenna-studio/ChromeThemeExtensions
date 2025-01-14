@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Prague Sunset",
+  "version": "1.0",
+  "description": "A sunset in Czech Prague",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "background_tab": [78, 100, 166],
+      "background_tab_inactive": [108, 135, 217],
+      "bookmark_text": [255, 255, 255],
+      "button_background": [255, 255, 255],
+      "frame": [242, 128, 102],
+      "frame_inactive": [242, 173, 133],
+      "ntp_header": [242, 153, 145],
+      "ntp_link": [242, 153, 145],
+      "ntp_text": [242, 153, 145],
+      "omnibox_background": [34, 42, 89],
+      "omnibox_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "tab_background_text_inactive": [255, 255, 255],
+      "tab_text": [34, 42, 89],
+      "toolbar": [242, 128, 102],
+      "toolbar_button_icon": [34, 42, 89],
+      "toolbar_text": [34, 42, 89]
+    }
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Prague Sunset",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
