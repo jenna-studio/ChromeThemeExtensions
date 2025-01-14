@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Black Pink Inspiration",
+  "version": "1.0",
+  "description": "Immerse yourself in a world of elegance and motivation with colors of black and pink.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_tab_background": "images/tab_background.png",
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "frame": [51, 50, 51],
+      "frame_inactive": [69, 67, 68],
+      "toolbar": [222, 80, 175],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [191, 191, 191],
+      "omnibox_text": [255, 255, 255],
+      "omnibox_background": [0, 0, 0],
+      "bookmark_text": [255, 255, 255],
+      "button_background": [255, 255, 255],
+      "folder": [191, 191, 191]
+    }
+  },
+  "icons": {
+    "128": "images/icon_128.png",
+    "48": "images/icon_48.png",
+    "16": "images/icon_16.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Black Pink Inspiration",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}

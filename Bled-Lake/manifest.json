@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Bled Lake",
+  "version": "1.0",
+  "description": "Browse with the landscape of Bled Lake in November.",
+  "theme": {
+    "images": {
+      "theme_tab_background": "images/tab_background.png",
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "frame": [67, 177, 250],
+      "frame_inactive": [180, 179, 180],
+      "toolbar": [67, 177, 250],
+      "tab_text": [5, 5, 5],
+      "tab_background_text": [69, 69, 69],
+      "omnibox_text": [255, 255, 255],
+      "omnibox_background": [38, 136, 201],
+      "bookmark_text": [76, 77, 77],
+      "button_background": [87, 85, 86],
+      "folder": [122, 120, 121]
+    }
+  },
+  "icons": {
+    "128": "images/icon_128.png",
+    "48": "images/icon_48.png",
+    "16": "images/icon_16.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Bled Lake",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
