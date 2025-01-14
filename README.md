@@ -1,6 +1,6 @@
-# ChromeExtensions
+# Chrome Theme Extensions
 
-Welcome to the **ChromeExtensions** repository! This repository contains all the source files, and assets for the custom **Chrome themes**🎨 I have created. Each theme is designed to personalize your browsing experience with unique colors, designs, and vibes.
+Welcome to the **Chrome Theme Extensions** repository! This repository contains all the source files, and assets for the custom **Chrome themes**🎨 I have created. Each theme is designed to personalize your browsing experience with unique colors, designs, and vibes.
 
 ---
 
