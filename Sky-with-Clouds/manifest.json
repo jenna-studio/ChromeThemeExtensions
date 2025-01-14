@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Sky with Clouds",
+  "version": "1.8",
+  "description": "Transform your browser into a serene sky with clouds.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_frame_inactive": "images/inactive_frame.png",
+      "theme_toolbar": "images/toolbar.png",
+      "theme_tab_background": "images/tab_background.png",
+      "theme_tab_foreground": "images/tab_foreground.png",
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "frame": [1, 99, 162],
+      "toolbar": [1, 99, 162],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [212, 237, 252],
+      "omnibox_text": [255, 255, 255],
+      "omnibox_background": [2, 74, 122],
+      "bookmark_text": [212, 237, 252],
+      "button_background": [255, 255, 255],
+      "toolbar_button_icon": [255, 255, 255],
+      "folder": [255, 255, 255]
+    }
+  },
+  "icons": {
+    "128": "images/icon_128.png",
+    "48": "images/icon_48.png",
+    "16": "images/icon_16.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "default_title": "Sky with Clouds",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
