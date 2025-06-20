@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "Green Workspace",
+    "version": "1.0",
+    "description": "Transform your browser into a green workspace.",
+    "theme": {
+        "images": {
+            "theme_tab_background": "images/tab_background.png",
+            "theme_ntp_background": "images/ntp_background.png"
+        },
+        "colors": {
+            "frame": [181, 229, 162],
+            "frame_inactive": [180, 179, 180],
+            "toolbar": [181, 229, 162],
+            "tab_text": [87, 85, 86],
+            "tab_background_text": [77, 76, 76],
+            "omnibox_text": [255, 255, 255],
+            "omnibox_background": [75, 179, 89],
+            "bookmark_text": [87, 85, 86],
+            "button_background": [87, 85, 86],
+            "folder": [122, 120, 121]
+        }
+    },
+    "icons": {
+        "128": "images/icon_128.png",
+        "48": "images/icon_48.png",
+        "16": "images/icon_16.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "images/icon_16.png",
+            "48": "images/icon_48.png",
+            "128": "images/icon_128.png"
+        },
+        "default_title": "Green Workspace",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["storage"]
+}
